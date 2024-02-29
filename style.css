@@ -1,0 +1,86 @@
+*{
+  row-gap: 14px;
+}
+body{
+  display:grid;
+ justify-content: center;
+ font-size: x-large;
+ background: #d68438;
+  letter-spacing: 2px;
+}
+.biodata{
+  text-align: center;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: burlywood;
+}
+.page{
+  
+  border: 0px none ;
+  height: 900px;
+  width: 1000px;
+  background-image: url(assets/c8d45c891e1ad613e0a3a140ef0e6da3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  
+
+}
+.page h2{
+  position: relative;
+  left: 140px;
+  top: 20px;
+}
+.page pre{
+  position: relative;
+  
+  top: 1px;
+  font-weight: 600;
+}
+/* @keyframes moveImage {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translatey(15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+} */
+
+.right img {
+  position: relative;
+  top: 35px;
+  left: 10px;
+  border-radius: 25%;
+  animation: moveImage 5s infinite;
+  display: block;
+  transition: box-shadow 1s ease-in-out; /* Smooth transition for the glow effect */
+
+}
+.right img:hover{
+  box-shadow: 0 0 10px 5px black; 
+}
+.head{
+  display: flex;
+}
+.btech{
+  border: 2px solid none;
+  width: 400px;
+  position: relative;
+  left: 13%;
+}
+.education{
+  position: relative;
+  left: 127px;
+  top: 20px;
+  font-weight: 600;
+}
+.front-cursor {
+  color: #fff; /* Cursor color */
+}
+.front {
+  color: rgb(255, 204, 0); /* Typed text color */
+}
